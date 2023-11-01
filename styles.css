@@ -1,0 +1,176 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;500&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+}
+body header {
+  display: flex;
+  width: 100%;
+  height: 10vh;
+  background-color: rgb(250, 225, 192);
+  align-items: center;
+}
+body header .logo a {
+  height: 10vh;
+  display: flex;
+  align-items: center;
+}
+body header .logo a img {
+  margin-left: 5vw;
+  height: 8vh;
+}
+body header .menu {
+  display: flex;
+}
+body header .menu ul .menu-item {
+  font-size: 20px;
+  display: inline;
+  margin-left: 20px;
+  text-decoration: none;
+}
+body header .menu ul .menu-item a {
+  text-decoration: underline;
+  -webkit-text-decoration-color: transparent;
+          text-decoration-color: transparent;
+  color: black;
+  transition: all 0.4s ease;
+  text-underline-offset: 10px;
+}
+body header .menu ul .menu-item a:hover {
+  color: #987654;
+  text-decoration: underline;
+  text-underline-offset: 10px;
+  text-decoration-thickness: 2px;
+}
+body header .mobile {
+  margin: 0 5vw 0 auto;
+  font-size: 19px;
+  cursor: pointer;
+}
+body header .mobile ul {
+  width: auto;
+}
+body header .mobile ul li {
+  list-style-type: none;
+  display: inline;
+  margin-left: 20px;
+}
+body header .mobile ul li:hover > ul {
+  display: initial;
+  position: absolute;
+}
+body header .mobile ul li ul {
+  right: 6vw;
+  top: 6vh;
+  position: absolute;
+  display: none;
+}
+body header .mobile ul li ul li {
+  list-style-type: none;
+  display: inline;
+  height: 2vh;
+  white-space: nowrap;
+  height: 200px;
+}
+body header .mobile ul li ul li img {
+  display: inline;
+  margin-top: 0;
+  height: 3vw;
+}
+body section {
+  display: flex;
+  background-color: rgb(250, 225, 192);
+  height: 90vh;
+}
+body section .section-left {
+  width: 80vw;
+  padding: 15vh 10vw;
+  background-image: url(images/panel.png);
+  background-size: cover;
+}
+body section .section-left .section-left-content .price {
+  margin-top: 30px;
+  font-size: 64px;
+  font-weight: 600;
+}
+body section .section-left .section-left-content h1 {
+  font-size: 72px;
+  margin: 0;
+}
+body section .section-left .section-left-content p {
+  font-size: 24px;
+  text-indent: 25px;
+  font-weight: 400;
+  color: white;
+  background: rgba(0, 0, 0, 0.15);
+  padding: 10px;
+  border-radius: 5px;
+}
+body section .section-left .section-left-content p .price {
+  font-size: 40px;
+  font-weight: 900;
+}
+body section .section-left .section-left-content p .price-description {
+  font-size: 25px;
+  font-weight: 600;
+  margin-right: 50px;
+}
+body section .section-left .section-left-content button {
+  color: #5c452c;
+  margin: 10px 20px 0 auto;
+  border: 1px solid #987654;
+  cursor: pointer;
+  padding: 16px 32px;
+  font-size: 18px;
+  font-weight: 600;
+  border-radius: 5px;
+  transition-duration: 0.4s;
+}
+body section .section-left .section-left-content button:hover {
+  background-color: #987654;
+  color: white;
+}
+body section .section-right {
+  width: 60vw;
+  background-size: cover;
+}
+body section .section-right .section-left-forms {
+  width: 20vw;
+  margin-top: 15vh;
+  background-color: white;
+  border: 1px solid #987654;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+}
+body section .section-right .section-left-forms h2 {
+  margin-top: 15px;
+  text-align: center;
+}
+body section .section-right .section-left-forms input {
+  border: 1px solid #987654;
+  border-radius: 10px;
+  width: 50%;
+  padding: 16px 32px;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 18px;
+  background-color: rgb(232, 229, 229);
+}
+body section .section-right .section-left-forms button {
+  margin: 0 auto 15px auto;
+  display: block;
+  color: #5c452c;
+  border: 1px solid #987654;
+  cursor: pointer;
+  padding: 16px 32px;
+  font-size: 18px;
+  border-radius: 5px;
+  transition-duration: 0.4s;
+}
+body section .section-right .section-left-forms button:hover {
+  background-color: #987654;
+  color: white;
+}/*# sourceMappingURL=styles.css.map */

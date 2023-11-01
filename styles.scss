@@ -1,0 +1,193 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;500&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+  header {
+    display: flex;
+    width: 100%;
+    height: 10vh;
+    background-color: rgb(250, 225, 192);
+    align-items: center;
+
+    .logo {
+      a {
+        height: 10vh;
+        display: flex;
+        align-items: center;
+        img {
+          margin-left: 5vw;
+          height: 8vh;
+        }
+      }
+    }
+    .menu {
+      display: flex;
+      ul {
+        .menu-item {
+          font-size: 20px;
+          display: inline;
+          margin-left: 20px;
+          text-decoration: none;
+          a {
+            text-decoration: underline;
+            text-decoration-color: transparent;
+            color: black;
+            -webkit-transition: all 0.4s ease;
+            -moz-transition: all 0.4s ease;
+            -o-transition: all 0.4s ease;
+            transition: all 0.4s ease;
+            text-underline-offset: 10px;
+            &:hover {
+              color: #987654;
+              text-decoration: underline;
+              text-underline-offset: 10px;
+              text-decoration-thickness: 2px;
+            }
+          }
+        }
+      }
+    }
+    .mobile {
+      margin: 0 5vw 0 auto;
+      font-size: 19px;
+      cursor: pointer;
+      ul {
+        width: auto;
+        li {
+          list-style-type: none;
+          display: inline;
+          margin-left: 20px;
+          &:hover > ul {
+            display: initial;
+            position: absolute;
+          }
+          ul {
+            right: 6vw;
+            top: 6vh;
+            position: absolute;
+            display: none;
+            li {
+              list-style-type: none;
+              display: inline;
+              height: 2vh;
+              white-space: nowrap;
+              height: 200px;
+              img {
+                display: inline;
+                margin-top: 0;
+                height: 3vw;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  section{
+    display: flex;
+    background-color:rgb(250, 225, 192);
+    height: 90vh;
+    .section-left{
+      width: 80vw;
+      padding: 15vh 10vw;
+      background-image: url(images/panel.png);
+      background-size: cover;
+      .section-left-content{
+        .price{
+          margin-top: 30px;
+          font-size: 64px;
+          font-weight: 600;
+        }
+        h1{
+          font-size: 72px;
+          margin: 0;
+
+        }
+        p{
+          font-size: 24px;
+          text-indent: 25px;
+          font-weight: 400;
+          color: white;
+          background: rgba(black, 0.15 );
+          padding: 10px;
+          border-radius: 5px;
+          .price{
+            font-size: 40px;
+            font-weight:900;
+          }
+          .price-description{
+            font-size: 25px;
+            font-weight:600;
+            margin-right: 50px;
+          }
+
+        }
+        button{
+          color:#5c452c;
+          margin: 10px 20px 0 auto;
+          border: 1px solid #987654;
+          cursor: pointer;
+          padding: 16px 32px;
+          font-size: 18px;
+          font-weight: 600;
+          border-radius: 5px;
+          -webkit-transition-duration: 0.4s; 
+          transition-duration: 0.4s;
+          &:hover{ 
+            background-color: #987654;
+            color: white;
+          }
+        }
+        
+      }
+      
+    }
+    .section-right{
+      width: 60vw;
+      background-size: cover;
+      .section-left-forms{
+        width: 20vw;
+        margin-top: 15vh;
+        background-color: white;
+        border: 1px solid #987654;
+        border-radius: 10px;
+        padding: 20px;
+        text-align: center;
+        h2{
+          margin-top: 15px;
+          text-align: center;
+        }
+        input{
+          border: 1px solid #987654;
+          border-radius: 10px;
+          width: 50%;
+          padding: 16px 32px;
+          margin-bottom: 20px;
+          margin-left: auto;
+          margin-right: auto;
+          font-size: 18px;
+          background-color: rgb(232, 229, 229);
+        }
+        button{
+          margin: 0 auto 15px auto;
+          display: block;
+          color:#5c452c;
+          border: 1px solid #987654;
+          cursor: pointer;
+          padding: 16px 32px;
+          font-size: 18px;
+          border-radius: 5px;
+          -webkit-transition-duration: 0.4s;
+          transition-duration: 0.4s;
+          &:hover{
+            background-color: #987654;
+            color: white;
+          }
+        }
+      }
+    }
+  }
+}
