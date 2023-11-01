@@ -12,13 +12,13 @@ body header {
   align-items: center;
 }
 body header .logo a {
-  height: 10vh;
+  height: 8vh;
   display: flex;
   align-items: center;
 }
 body header .logo a img {
   margin-left: 5vw;
-  height: 8vh;
+  height: 7vh;
 }
 body header .menu {
   display: flex;
@@ -126,6 +126,7 @@ body section .section-left .section-left-content button {
   font-weight: 600;
   border-radius: 5px;
   transition-duration: 0.4s;
+  background-color: rgb(241, 241, 241);
 }
 body section .section-left .section-left-content button:hover {
   background-color: #987654;
@@ -138,7 +139,7 @@ body section .section-right {
 body section .section-right .section-left-forms {
   width: 20vw;
   margin-top: 15vh;
-  background-color: white;
+  background-color: rgb(241, 241, 241);
   border: 1px solid #987654;
   border-radius: 10px;
   padding: 20px;

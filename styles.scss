@@ -13,12 +13,12 @@ body {
 
     .logo {
       a {
-        height: 10vh;
+        height: 8vh;
         display: flex;
         align-items: center;
         img {
           margin-left: 5vw;
-          height: 8vh;
+          height: 7vh;
         }
       }
     }
@@ -136,6 +136,7 @@ body {
           border-radius: 5px;
           -webkit-transition-duration: 0.4s; 
           transition-duration: 0.4s;
+          background-color: rgb(241, 241, 241);
           &:hover{ 
             background-color: #987654;
             color: white;
@@ -151,7 +152,7 @@ body {
       .section-left-forms{
         width: 20vw;
         margin-top: 15vh;
-        background-color: white;
+        background-color: rgb(241, 241, 241);
         border: 1px solid #987654;
         border-radius: 10px;
         padding: 20px;
